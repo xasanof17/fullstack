@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  user-select: none;
+  touch-action: none;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+textarea {
+  max-height: 200px;
+  min-height: 120px;
+}
+button{
+  outline: none !important;
+}
+.btns{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.btns button{
+  margin: 0 5px;
+}
+/* table{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+thead, tbody, tr, th{
+  width: 100%;
+} */
+thead tr th:last-child{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
